@@ -1,0 +1,288 @@
+@import 'reset.css';
+
+/*paramètre généraux*/
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+section {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+	text-align: center;
+
+}
+/* header*/
+header {
+	background-image: url("img/fondheader.png");
+	min-height: 100vh;
+	color: #fff;
+
+}
+
+ul {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font: bold 13px Raleway,sans-serif;
+	margin-left: 750px;
+	margin-right: 210px;
+}
+
+.logoheader {
+	margin-top: 15px;
+	margin-left: 225px;
+	float: left;
+
+}
+hr {
+	margin: 0px 225px 0px 225px;
+}
+
+.latintopbtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 200px;
+}
+
+p { 
+	font-family: Open+Sans, sans serif;
+	font-weight: bold;
+	font-size: 65px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.latinheader {
+	font: 22px Raleway,sans-serif;
+	display: flex;
+	text-align: center;
+	padding-bottom: 75px;
+}
+
+.btn1 {
+	font: 13px Raleway, sans-serif;
+    padding: 10px 15px 10px 15px;
+    background: #e84545;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+
+/* partie features*/
+
+.feature {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+	padding-bottom: 50px;
+	height: 300px;
+}
+.feature2 {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+	padding-bottom: 100px;
+	
+}
+.pfeature {
+	font: 14px Raleway,sans-serif;
+	color: #808080;
+	padding-top: 20px;
+}
+h2 { 
+	font: bold 14px Raleway, sans-serif;
+}
+
+/* partie work*/
+
+.work1 {
+	display: flex;
+	align-items: center;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+.work {
+	width: 25%;
+}
+/* partie team*/
+.team {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	margin: auto;
+}
+h3 {
+	font: 22px Raleway,sans-serif;
+	text-align: left;
+	margin-top: 20px;
+}
+h4 {
+	font: 13px Raleway,sans-serif;
+	color: #ff0000; 
+	text-align: left;
+	margin-top: 5px;
+}
+.team img {
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 20px;
+
+}
+.team p {
+	color: #808080;
+	font: 14px Raleway,sans-serif;
+	text-align: left;
+
+}
+.team i {
+	color: #808080;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding-top: 5px;
+}
+.pteam{
+	padding-top: 3px;
+	margin-left: -3px;
+}
+
+/* partie client*/
+.client {
+	background-color: #53354a;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	width: 50%;
+	
+}
+.padt {
+	padding-top: 20px;
+}
+.clientdepressif img {
+	width: 50%;
+}
+.clientsusan2 {
+	font: bold 13px Raleway,sans-serif;
+	text-align: left;
+	margin-left: -275px;
+}
+.clientsusan1 {
+	font: italic 36px  Cardo,sans serif;
+	text-align: left;
+}
+.h500 {height: 500px;}
+
+.w100 {width: 100%;}
+.w50 {width: 50%;}
+
+.dflex {display: flex;}
+.flexDR {flex-direction: row;}
+
+
+/* partie download */
+.download {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column; 
+	margin-top: 150px;
+}
+.btn2 {
+	font: 13px Raleway, sans-serif;
+    padding: 10px 60px 10px 60px;
+    background: #e84545;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    margin: auto;
+    margin-bottom: 150px;
+
+}
+.down1 {
+	font: lighter 28px Raleway,sans-serif;
+}
+.down1lgt {
+	font: bold 13px Raleway,sans-serif;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+/* footer*/
+footer {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #3a3e64;
+	width: 100%;
+	flex-wrap: wrap;
+	color: #fff;
+	padding-top: 70px;
+
+}
+.footer1 {
+	display: inline-flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+	width: 100%;
+}
+
+
+.copyright {
+	background-color: #313454;
+	width: 100%;
+	text-align: center;
+}
+
+.about {
+	width: 33%;
+	text-align: center;
+}
+
+.location {
+	width: 33%;
+	text-align: center;
+}
+
+.share {
+	width: 33%;
+	text-align: center;
+}
+
+ footer i {
+	border: solid;
+}
+
+footer p {
+	color: #808080;
+	font: 14px Raleway,sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.poire {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
